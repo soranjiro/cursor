@@ -6,6 +6,10 @@
     padding: 10px;
     float: left; /* ボックスを左に浮かせて横に並べる */
     box-sizing: border-box; /* paddingとborderをwidthとheightに含める */
+    text-align: center; /* テキストを中央に配置 */
+    display: flex; /* フレックスボックスを使用 */
+    justify-content: center; /* 水平方向の中央に配置 */
+    align-items: center; /* 垂直方向の中央に配置 */
 }
 /* マウスカーソルの種類
     - 通常の選択
