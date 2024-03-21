@@ -1,0 +1,86 @@
+.box {
+    border: 1px solid black;
+    width: 150px; /* ボックスの幅 */
+    height: 150px; /* ボックスの高さ */
+    margin: 10px;
+    padding: 10px;
+    float: left; /* ボックスを左に浮かせて横に並べる */
+    box-sizing: border-box; /* paddingとborderをwidthとheightに含める */
+}
+/* マウスカーソルの種類
+    - 通常の選択
+    - ヘルプの選択
+    - バックグラウンドで作業中
+    - 待ち状態
+    - 領域選択
+    - テキスト選択
+    - 手書き
+    - 利用不可
+    - 上下に拡大/縮小
+    - 左右に拡大/縮小
+    - 斜めに拡大/縮小 1(北西)
+    - 縦横に拡大/縮小 2(北東)
+    - 移動
+    - 代替選択
+    - リンクの選択
+    - 場所の選択
+    - 人の選択
+*/
+
+#box1 {
+    cursor: default; /* 通常の選択 */
+}
+#box2 {
+    cursor: help; /* ヘルプの選択 */
+}
+#box3 {
+    cursor: progress; /* バックグラウンドで作業中 */
+}
+#box4 {
+    cursor: wait; /* 待ち状態 */
+}
+#box5 {
+    cursor: crosshair; /* 領域選択 */
+}
+#box6 {
+    cursor: text; /* テキスト選択 */
+}
+#box7 {
+    cursor: cell; /* 手書き */
+    background-color: red
+}
+#box8 {
+    cursor: not-allowed; /* 利用不可 */
+}
+#box9 {
+    cursor: ns-resize; /* 上下に拡大/縮小 */
+}
+#box10 {
+    cursor: ew-resize; /* 左右に拡大/縮小 */
+}
+#box11 {
+    cursor: nwse-resize; /* 斜めに拡大/縮小 1(北西) */
+}
+#box12 {
+    cursor: nesw-resize; /* 縦横に拡大/縮小 2(北東) */
+}
+#box13 {
+    cursor: move; /* 移動 */
+}
+#box14 {
+    cursor: cell; /* 代替選択 */
+    background-color: red
+}
+#box15 {
+    cursor: pointer; /* リンクの選択 */
+}
+#box16 {
+    cursor: cell; /* 場所の選択 */
+    background-color: red
+}
+#box17 {
+    cursor: cell; /* 人の選択 */
+    background-color: red
+}
+
+
